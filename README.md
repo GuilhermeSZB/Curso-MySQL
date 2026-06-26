@@ -33,7 +33,7 @@ Cada pasta contém um projeto, exercício ou banco de dados específico abordand
 1. Clone este repositório:
 
    ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
+   git clone https://github.com/GuilhermeSZB/Curso-MySQL.git
    ```
 
 2. Navegue até a pasta desejada.
