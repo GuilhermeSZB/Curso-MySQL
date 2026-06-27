@@ -1,0 +1,40 @@
+USE cadastro;
+
+ALTER TABLE pessoas
+ADD COLUMN profissao VARCHAR(10) AFTER nome;
+
+ALTER TABLE pessoas
+ADD COLUMN profissao VARCHAR(10) FIRST;
+
+SELECT * FROM pessoas;
+
+ALTER TABLE pessoas
+DROP COLUMN profissao;
+
+ALTER TABLE pessoas
+MODIFY COLUMN profissao VARCHAR(20) NOT NULL DEFAULT ' ';
+
+ALTER TABLE pessoas
+CHANGE COLUMN profissao prof VARCHAR(20) DEFAULT ' ';
+
+ALTER TABLE pessoas
+RENAME TO gafanhotos;
+
+ALTER TABLE gafanhotos
+RENAME TO pessoas;
+
+CREATE TABLE IF NOT EXISTS cursos(
+nome VARCHAR(30) NOT NULL UNIQUE,
+descricao TEXT ,
+carga INT UNSIGNED,
+totalaulas INT,
+ano YEAR DEFAULT '2026'
+) DEFAULT CHARSET = utf8;
+
+ALTER TABLE cursos
+ADD COLUMN idcurso INT FIRST;
+
+ALTER TABLE cursos
+ADD PRIMARY KEY(idcurso);
+
+DROP TABLE IF EXISTS cursos;

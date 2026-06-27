@@ -1,0 +1,4 @@
+Nesta aula foi apresentado os comando ALTER TABLE e DROP TABLE os dois entra na categoria DDL (Data Defination Language), o drop table deleta a tabela ou o banco de dados.
+já o alter table vem para modificar a tabela com os comandos add, drop, rename to, change, modify. Todos estes modificam de um jeito diferente a tabela.
+
+Os Banco de dados que foi utilizado é o criado na aula 2.
