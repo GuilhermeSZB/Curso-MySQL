@@ -1,0 +1,1 @@
+Nesta aula, aprendemos a insirir dados na tabela que criamos na aula passada, utilizando o codigo "INSERT INTO" para inserir e "VALUES" para indicar qual posição.
